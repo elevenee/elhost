@@ -1,4 +1,4 @@
-	var pres = document.getElementsByTagName("pre");
+window.onload= function(){	var pres = document.getElementsByTagName("pre");
 for (var i = 0; i < pres.length; i++) {
   pres[i].addEventListener("dblclick", function () {
     var selection = getSelection();
@@ -7,4 +7,5 @@ for (var i = 0; i < pres.length; i++) {
     selection.removeAllRanges();
     selection.addRange(range);
   }, false);
+}
 }
