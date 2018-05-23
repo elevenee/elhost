@@ -189,9 +189,6 @@ pre.line-numbers > code {
 .token.crlf:before {
     content: '\240D\240A';
 }
-.token.lf:before {
-    content: '';
-}
 
 .token.space:before {
 	content: ' ';
@@ -199,7 +196,7 @@ pre.line-numbers > code {
 div.code-toolbar {
 	position: relative;
 }
-
+ 
 div.code-toolbar > .toolbar {
 	position: absolute;
 	top: .3em;
