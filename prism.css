@@ -190,7 +190,7 @@ pre.line-numbers > code {
     content: '\240D\240A';
 }
 .token.lf:before {
-    content: '\240A';
+    content: '';
 }
 
 .token.space:before {
