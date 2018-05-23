@@ -167,7 +167,7 @@ pre.line-numbers > code {
 .token.cr,
 .token.lf,
 .token.space {
-	position: relative;
+	display:none;
 }
 
 .token.tab:not(:empty):before,
@@ -175,7 +175,7 @@ pre.line-numbers > code {
 .token.lf:before,
 .token.space:before {
 	color: hsl(24, 20%, 85%);
-	position: absolute;
+	display:none;
 }
 
 .token.tab:not(:empty):before {
