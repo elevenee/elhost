@@ -190,13 +190,11 @@ pre.line-numbers > code {
     content: '\240D\240A';
 }
 .token.lf:before {
-    content: '';
+    content: '\240A';
 }
+
 .token.space:before {
 	content: ' ';
-}
-.token.lf{
-    display: none;
 }
 div.code-toolbar {
 	position: relative;
